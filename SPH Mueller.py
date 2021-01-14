@@ -167,7 +167,7 @@ dt = 0.01
 damp = -0.5
 f_grav =  [0, g]
 
-def update(tt,xyz, vel, rho, press, xyz_old):
+def update(tt,xyz, vel, rho, press):
 
     for ii in range(n_part):
         rho[ii] = 0
